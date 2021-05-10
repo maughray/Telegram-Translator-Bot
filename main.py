@@ -13,11 +13,11 @@ logger = logging.getLogger(__name__)
 
 
 def start(update, context):
-    update.message.reply_text('Hi...')
+    update.message.reply_text('EZ Translator - Free, unlimited translation\nSet target language: /set_language [CODE]\nWrite any message and I will translate it.')
 
 
 def help(update, context):
-    update.message.reply_text('Help...')
+    update.message.reply_text('Set target language:\n/set_language [CODE] - Setting target language\nWrite any message and I will translate it.')
 
 
 def translate(update, context):
